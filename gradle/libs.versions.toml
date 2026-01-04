@@ -1,0 +1,14 @@
+[versions]
+kotlin = "2.3.0"
+junit = "5.14.1"
+mockk = "1.14.7"
+
+[libraries]
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit-platform-testkit = { module = "org.junit.platform:junit-platform-testkit" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
